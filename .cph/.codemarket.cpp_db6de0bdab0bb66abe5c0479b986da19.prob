@@ -1,0 +1,1 @@
+{"name":"Local: codemarket","url":"d:\\DS_Practice\\cpp\\codemarket.cpp","tests":[{"id":1603813416156,"input":"3\n3 4\n1 2\n120 150","output":"YES\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DS_Practice\\cpp\\codemarket.cpp","group":"local","local":true}
