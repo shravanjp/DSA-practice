@@ -23,7 +23,7 @@ int main()
     {
         cin>>len;
         cin>>str;
-        cout<<reverseBinaryString(str,len);
+        cout<<reverseBinaryString(str,len)<<endl;
     }
     return 0;
 }
