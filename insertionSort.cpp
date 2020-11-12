@@ -18,19 +18,17 @@ void print(int arr[],int size)
 }
 void insertionSort(int arr[],int size)
 {
-    int current,j;
-    for(int i=1;i<=size;i++)
+    for(int i=1;i<=n;i++)
     {
-        current=arr[i];
-        j=i-1;
-        while(arr[j]>current && j>=0)
+        int current=a[i];
+        int j=i-1;
+
+        while(a[j]>current && j>=0)
         {
-            arr[j+1]=arr[j];
+            a[j+1]=a[j];
             j--;
-            print(arr,size);
         }
-        arr[j+1]=current;
-        print(arr,size);
+        a[j+1]=current;
     }
 }
 int main()

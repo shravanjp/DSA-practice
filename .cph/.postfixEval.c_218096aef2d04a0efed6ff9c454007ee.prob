@@ -1,0 +1,1 @@
+{"name":"Local: postfixEval","url":"d:\\DS_Practice\\cpp\\postfixEval.c","tests":[{"id":1604952038617,"input":"23^*12/","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DS_Practice\\cpp\\postfixEval.c","group":"local","local":true}
