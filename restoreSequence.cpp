@@ -21,8 +21,10 @@ void check(int a[],int b[],int size)
 
 void restoreSequence(int b[],int size)
 {
-   int n=(10000+1);
+   int n=(100000);
    bool prime[n];
+   prime[0]=false;
+   prime[1]=false;
    memset(prime,true,sizeof(prime));
    for(int p=2; p*p<=n; p++)
    {
