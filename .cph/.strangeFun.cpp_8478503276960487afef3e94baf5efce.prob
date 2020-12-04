@@ -1,0 +1,1 @@
+{"name":"Local: strangeFun","url":"d:\\DS_Practice\\cpp\\strangeFun.cpp","tests":[{"id":1607065531731,"input":"5\n47800\n37\n998244353\n1000000007\n9013374269666\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DS_Practice\\cpp\\strangeFun.cpp","group":"local","local":true}

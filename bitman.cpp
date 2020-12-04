@@ -14,12 +14,30 @@ int numberOfOnes(int num)
     }
     return  count;
 }
+void generateSubsets(char *arr,int n)
+{
+   for(int i=0;i<(1<<n);i++)
+   {
+       for(int j=0;j<n;j++)
+       {
+           if(i & (1<<j))
+           {
+               cout<<arr[j]<<" ";
+           }
+       }
+       cout<<endl;
+   }
+    
+}
 int main()
 {
    int num;
-   cin>>num;
+   char arr[]={'a','b','c','d','e'};
+//    cin>>num;
 //    int ans=isPowerOfTwo(num);
-    int ans=numberOfOnes( num);
-   cout<<ans;
+    // int ans=numberOfOnes(  num);
+    num=sizeof(arr)/sizeof(arr[0]);
+//    cout<<ans;
+generateSubsets(arr,num);
     return 0;
 }
